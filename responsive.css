@@ -3,6 +3,23 @@
     row-gap: 20px;
 }
 
+.pallino{
+    width: 6px;
+    height: 6px;
+    background-color: #007de3;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+.trattino::after{
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 3px solid lightgray;
+    width: 100%;
+    margin: 50px auto;
+}
+
 @media screen and (max-width:1330px) {
     .side-bar{
         width: auto;
