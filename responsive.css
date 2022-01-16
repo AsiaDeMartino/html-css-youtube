@@ -17,7 +17,16 @@
     clear: both;
     border-bottom: 3px solid lightgray;
     width: 100%;
-    margin: 50px auto;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.play-list-wrapper h1{
+    margin-bottom: 40px;
+}
+
+.info p{
+    color: rgb(67,67,67);
 }
 
 @media screen and (max-width:1330px) {
