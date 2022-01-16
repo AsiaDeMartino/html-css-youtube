@@ -1,3 +1,8 @@
+.play-list{
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
 @media screen and (max-width:1330px) {
     .side-bar{
         width: auto;
@@ -33,5 +38,22 @@
 @media screen and (max-width:800px) {
     .side-bar{
         display: none;
+    }
+}
+@media screen and (max-width:1140px) {
+    .play-list-item{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    .play-list-item {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width:509px) {
+    .play-list-item {
+        width: 90%;
     }
 }
