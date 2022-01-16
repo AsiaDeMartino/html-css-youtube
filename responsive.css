@@ -1,0 +1,32 @@
+@media screen and (max-width:1330px) {
+    .side-bar{
+        width: auto;
+    }
+
+    .widget{
+        padding: 0;
+        border-bottom: none;
+    }
+
+    .widget:not(.side-bar .widget:first-child) .menu-item:not(.widget__menu .menu-item:first-child) {
+        display:none;
+    }
+
+    .widget .widget__title {
+        display:none;
+    }
+
+    .menu-item{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+
+    .menu-item .icon{
+        margin-right: 0px;
+        margin-bottom: 10px;   
+    }
+
+}
+
